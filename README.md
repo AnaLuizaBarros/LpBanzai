@@ -30,11 +30,11 @@ Dentro da pasta do projeto execute pelo cmd o comando para buildar a aplicação
 
 `gulp build`
 
-Por ultimo execute o comando para rodar a aplicação
+Por ultimo execute o comando para rodar a aplicação:
 
 `gulp watch`
 
-## Caso queira rodar a aplicação pelo visual studio code, recomendo estes passos: 
+### Caso queira rodar a aplicação pelo visual studio code, recomendo estes passos: 
 
 Para buildar:
 
