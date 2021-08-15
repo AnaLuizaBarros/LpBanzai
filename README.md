@@ -16,6 +16,10 @@ Teste para a vaga de Front-end na empresa Alpes One, que consiste na criação d
 
 `teste-alpes-one-honda.netlify.app`
 
+## Link para o video mostrando projeto
+
+`https://drive.google.com/file/d/1GdfzI2mAEinzS6q_4iUp4GQDTBp2SXhq/view?usp=sharing`
+
 ## Instruções
 
 Para a compilação do projeto é necessária a instalação destes pacotes:
