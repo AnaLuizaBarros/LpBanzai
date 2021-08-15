@@ -20,7 +20,7 @@ Para a compilação do projeto é necessária a instalação destes pacotes:
 
 Após a instalação dos pacotes, clone o projeto utilizando o comando:
 
-`git@github.com:AnaLuizaBarros/LpBanzai.git`
+`git clone git@github.com:AnaLuizaBarros/LpBanzai.git`
 
 Em seguida acesse a pasta do projeto e faça a instalação:
 
