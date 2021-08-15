@@ -1,1 +1,31 @@
-# LpBanzai
+# Honda Banzai 
+
+Teste para a vaga de Front-end na empresa Alpes One, consiste na criação de uma landing page de divulgação de veiculos da Honda.
+
+
+## Tecnologias principais
+
+<li>HTML, CSS, JavaScript, SASS, GULP, Bootstrap 5</li>
+
+## Pontos Importantes do projeto
+
+<li>Foi utilizado a arquitetura BEM</li>
+<li>Foi utilizado o aplicativo ResponsivelyApp para validação do mobile </li>
+
+## Instruções
+
+Para a compilação do projeto e necessario a instalação destes pacotes:
+
+<li>Node, SASS, GULP e NPM</li>
+
+Após a instalação dos pacotes clone o projeto utilizando o comando:
+
+`git@github.com:AnaLuizaBarros/LpBanzai.git`
+
+em seguida acesse a pasta do projeto e faça a instalação:
+
+`npm install`
+
+dentro da pasta do projeto execute o comando para rodar a aplicação
+
+`gulp watch`
