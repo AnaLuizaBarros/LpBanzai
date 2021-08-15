@@ -66,8 +66,6 @@ function fonts(cb) {
 
 function useIndex(cb) {
   gulp.src("app/*.html").pipe(gulp.dest("dist"));
-  // gulp.src("app/manifest.json").pipe(useref()).pipe(gulp.dest("dist"));
-  // gulp.src("app/browserconfig.xml").pipe(useref()).pipe(gulp.dest("dist"));
   console.log("useIndex processed");
   cb();
 }
