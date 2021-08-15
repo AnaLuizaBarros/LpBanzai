@@ -1,0 +1,11 @@
+.banner {
+  position: relative;
+  .banner__image__sobrepor {
+    position: absolute;
+    left: 8%;
+    top: 60%;
+    @media (min-width: $screen-lg-min) {
+      top: 65%;
+    }
+  }
+}

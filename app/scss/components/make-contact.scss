@@ -1,6 +1,6 @@
 @import "../variables.scss";
 .make-contact {
-  background: #eeeeee 0% 0% no-repeat padding-box;
+  background: $white-grey 0% 0% no-repeat padding-box;
   box-shadow: 0px 0px 5px $white-grey4;
   border-radius: 4px;
   opacity: 1;
@@ -8,8 +8,7 @@
   height: 352px;
   position: fixed;
   left: 100%;
-  top: 215px;
-  bottom: 0;
+  top: 30%;
   margin-left: -340px;
 
   .make-contact__phone__span {
@@ -27,7 +26,8 @@
     margin: 0.5em 0.5em 0 0;
     text-align: center;
   }
-  .make-contact__input {
+  .make-contact__input,
+  .make-contact__select {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     width: 100%;
@@ -40,17 +40,17 @@
   }
   ::placeholder {
     /* Firefox, Chrome, Opera */
-    color: $dark-grey3;
+    color: $black;
   }
 
   :-ms-input-placeholder {
     /* Internet Explorer 10-11 */
-    color: $dark-grey3;
+    color: $black;
   }
 
   ::-ms-input-placeholder {
     /* Microsoft Edge */
-    color: $dark-grey3;
+    color: $black;
   }
   .make-contact__image {
     width: 12px;

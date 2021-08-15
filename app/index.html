@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/honda-icon.png" />
     <link rel="stylesheet" href="style.min.css" />
 
     <link
@@ -59,37 +60,69 @@
         </span>
       </div>
     </header>
-    <div class="container logo-contact mt-3">
-      <img class="logo-contact__imagem" src="images/logo@2x.png" alt="logo" />
+    <section class="container logo-contact mt-3">
+      <img
+        class="logo-contact__imagem"
+        src="images/logo@2x.png"
+        alt="Honda Banzai Logo"
+      />
       <div class="central mt-4 mt-lg-0">
         <span class="central__span"><i>CENTRAL DE ATENDIMENTO</i></span>
         <p class="central__numbers"><i>(31) 3123-1234</i></p>
       </div>
-    </div>
+    </section>
     <main>
-      <img class="w-100 hide-on-mobile" src="images/Retângulo.png" />
-
+      <section class="banner">
+        <img
+          class="w-100 hide-on-mobile"
+          src="images/Retângulo.png"
+          alt="Civic Banner"
+        />
+        <img
+          class="banner__image__sobrepor hide-on-mobile"
+          src="images/os-eleitos-grande-vencedor-2017_0.png"
+          alt="ELeito Grande Vencedor 2017"
+        />
+      </section>
       <div class="hide-on-desktop text-center">
         <img
           width="418px"
           src="images/mobile/Civic_EXL_2017_3_4_Lado_A_Preto_72dpi.png"
+          alt="CIVIC EXL 2017"
         />
-        <img width="318px" src="images/mobile/Grupo 98.svg" />
+        <img
+          width="318px"
+          src="images/mobile/Grupo 98.svg"
+          alt="civic geração 10"
+        />
       </div>
-      <div id="make-contact" class="make-contact p-3 mt-5 mt-lg-0">
+      <section class="make-contact p-3 mt-5 mt-lg-0">
         <div class="make-contact__phone mb-4">
-          <img class="make-contact__phone__image" src="images/Grupo 45.svg" />
+          <img
+            class="make-contact__phone__image"
+            src="images/Grupo 45.svg"
+            alt="Phone icon"
+          />
           <span class="make-contact__phone__span">Solicitar um</span>
           <p class="make-contact__phone__text">CONTATO</p>
         </div>
-        <img class="make-contact__image" src="images/Grupo 32.svg" />
+        <img
+          class="make-contact__image"
+          src="images/Grupo 32.svg"
+          alt="Person icon"
+        />
         <input type="text" placeholder="Nome" class="make-contact__input" />
-        <img class="make-contact__image" src="images/black-envelope.svg" />
+        <img
+          class="make-contact__image"
+          src="images/black-envelope.svg"
+          alt="Envelope icon"
+        />
         <input type="email" placeholder="E-mail" class="make-contact__input" />
         <img
           class="make-contact__image"
           placeholder="E-mail"
           src="images/call-answer.svg"
+          alt="Phone icon"
         />
         <input
           type="phone"
@@ -99,35 +132,33 @@
         <img
           class="make-contact__image"
           src="images/clock-circular-outline.svg"
+          alt="Clock icon"
         />
-        <input
-          type="text"
-          placeholder="Escolha o horário"
-          class="make-contact__input"
-        />
+        <select id="hour" name="hourlist" class="make-contact__select">
+          <option value="choose">Escolha um horario</option>
+        </select>
         <img
           class="make-contact__image"
           src="images/facebook-placeholder-for-locate-places-on-maps.svg"
+          alt="Map icon"
         />
-        <input
-          type="text"
-          placeholder="Escolha a unidade"
-          class="make-contact__input"
-        />
+        <select id="location" name="locationlist" class="make-contact__select">
+          <option value="location">Escolha uma unidade</option>
+        </select>
         <button class="honda-button secondary mt-2">AGENDAR TEST DRIVE</button>
-      </div>
-      <div class="container p-4 example-car">
+      </section>
+      <section class="container p-4 example-car">
         <h1 class="mb-5 title">
           <i>A EMOÇÃO DE DIRIGIR LEVA VOCÊ MAIS LONGE</i>
         </h1>
         <div class="row example-car__row">
           <div class="col-2 example-car__row__images hide-on-mobile">
-            <img src="images/Retângulo 16.png" />
-            <img src="images/Retângulo 19.png" />
-            <img src="images/Retângulo 21.png" />
+            <img src="images/Retângulo 16.png" alt="lateral 1" />
+            <img src="images/Retângulo 19.png" alt="lateral 2" />
+            <img src="images/Retângulo 21.png" alt="lateral 3" />
           </div>
           <div class="col">
-            <img class="img-fluid" src="images/juntosi.png" />
+            <img class="img-fluid" src="images/juntosi.png" alt="novo civic" />
           </div>
         </div>
         <p class="mt-4 mb-4 example-car__text">
@@ -136,11 +167,15 @@
           sofisticação e conforto, atribuído por seu design interno e
           diferenciada ergonomia.
         </p>
-      </div>
+      </section>
 
-      <img class="w-100 image-text--desktop" src="images/Grupo 74.png" />
+      <img
+        class="w-100 image-text--desktop"
+        src="images/Grupo 74.png"
+        alt="painel do carro"
+      />
       <div class="image-text--mobile">
-        <img src="images/mobile/Retângulo 11.png" />
+        <img src="images/mobile/Retângulo 11.png" alt="painel do carro" />
         <div class="text">
           <p><i>PREPARE-SE PARA ALGO REALMENTE NOVO</i></p>
           <span
@@ -149,21 +184,24 @@
           >
         </div>
       </div>
-      <div class="carousel slide image-text--mobile">
+      <section class="carousel slide image-text--mobile">
         <button
           id="arrow-left"
           class="carousel-control left"
           onClick="prev()"
           type="button"
         >
-          <img src="images/mobile/keyboard-right-arrow-button.svg" />
+          <img
+            src="images/mobile/keyboard-right-arrow-button.svg"
+            alt="seta esquerda"
+          />
         </button>
         <div id="carCarousel" class="carousel carousel-inner">
           <div class="carousel-item active">
             <img
               class="carousel-item__image d-block"
               src="images/mobile/07-DIRECAO_ELETRICA.png"
-              alt="First slide"
+              alt="primeiro slide"
             />
             <div class="carousel-item__text">
               <p class="carousel-item__text__title">
@@ -176,37 +214,27 @@
               </p>
             </div>
           </div>
-          <div class="carousel-item">
-            <img
-              class="d-block"
-              src="images/mobile/07-DIRECAO_ELETRICA.png"
-              alt="Second slide"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block"
-              src="images/mobile/07-DIRECAO_ELETRICA.png"
-              alt="Third slide"
-            />
-          </div>
 
           <button
             id="arrow-right"
             class="carousel-control right"
             onClick="next()"
             type="button"
+            alt="seta direita"
           >
-            <img src="images/mobile/keyboard-right-arrow-button.svg" />
+            <img
+              src="images/mobile/keyboard-right-arrow-button.svg"
+              alt="seta direita"
+            />
           </button>
         </div>
-      </div>
-      <div class="container new-car hide-on-mobile mt-5">
+      </section>
+      <section class="container new-car hide-on-mobile mt-5">
         <h1 class="title"><i>PRONTO PARA TER UM HONDA?</i></h1>
         <p class="subtitle">Conheça os últimos grandes lançamentos da honda.</p>
         <div class="row new-car__coluns">
           <span class="col-4 new-car__coluns__item">
-            <img src="images/accord.png" />
+            <img src="images/accord.png" alt="honda accord" />
             <p class="new-car__coluns__item__text">
               Novo Honda Accord: a combinação perfeita de três atributos
               exigidos pelo consumidor: elegância, luxo e alto desempenho.
@@ -214,7 +242,7 @@
             <button class="honda-button primary">CONHEÇA MAIS</button>
           </span>
           <span class="col-4 new-car__coluns__item ms-4">
-            <img src="images/city.png" />
+            <img src="images/city.png" alt="honda city" />
             <p class="new-car__coluns__item__text">
               O City está muito mais moderno e esportivo. Com design único e
               mais tecnológico do que nunca, ele vai conquistar todos os
@@ -223,7 +251,7 @@
             <button class="honda-button primary">CONHEÇA MAIS</button>
           </span>
           <span class="col-4 new-car__coluns__item ms-4">
-            <img src="images/fit_2018.png" />
+            <img src="images/fit_2018.png" alt="honda fit" />
             <p class="new-car__coluns__item__text">
               Com seu design inconfundível, o novo Honda Fit traz novidades que
               vão surpreender a todos e atrair ainda mais fãs.
@@ -231,9 +259,9 @@
             <button class="honda-button primary">CONHEÇA MAIS</button>
           </span>
         </div>
-      </div>
+      </section>
 
-      <div class="hide-on-desktop">
+      <div class="hide-on-desktop mt-5 mb-3">
         <h1 class="title"><i>PRONTO PARA TER UM HONDA?</i></h1>
         <p class="subtitle">Conheça os últimos grandes lançamentos da honda.</p>
         <div class="owl-carousel accordion-carousel owl-theme">
@@ -248,14 +276,14 @@
                   aria-expanded="false"
                   aria-controls="collapseOne"
                 >
-                  <img src="images/accord.png" />
+                  <img src="images/accord.png" alt="honda accord" />
                 </button>
               </h2>
               <div
                 id="collapseOne"
                 class="accordion-collapse collapse show"
                 aria-labelledby="headingOne"
-                data-bs-parent="#accordionExample"
+                data-bs-parent="#Caraccordion"
               >
                 <div class="accordion-body">
                   <strong>
@@ -280,14 +308,14 @@
                   aria-expanded="false"
                   aria-controls="collapseTwo"
                 >
-                  <img src="images/city.png" />
+                  <img src="images/city.png" alt="honda city" />
                 </button>
               </h2>
               <div
                 id="collapseTwo"
                 class="accordion-collapse collapse"
                 aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample"
+                data-bs-parent="#Caraccordion"
               >
                 <div class="accordion-body">
                   <strong>
@@ -311,14 +339,14 @@
                   aria-expanded="false"
                   aria-controls="collapseThree"
                 >
-                  <img src="images/fit_2018.png" />
+                  <img src="images/fit_2018.png" alt="honda fit" />
                 </button>
               </h2>
               <div
                 id="collapseThree"
                 class="accordion-collapse collapse"
                 aria-labelledby="headingThree"
-                data-bs-parent="#accordionExample"
+                data-bs-parent="#Caraccordion"
               >
                 <div class="accordion-body">
                   <strong
@@ -334,13 +362,14 @@
         </div>
       </div>
 
-      <div class="social-media mt-2 mt-lg-5">
+      <section class="social-media mt-2 mt-lg-5">
         <div class="p-4 p-lg-3">
           <div class="social-media__box">
             <div class="social-media__box__item me-0 me-lg-4 mb-2 mb-lg-0">
               <img
                 class="social-media__box__item__image"
                 src="images/facebook-placeholder-for-locate-places-on-maps.svg"
+                alt="map icon"
               />
 
               <span class="social-media__box__item__span">Encontre uma</span>
@@ -356,24 +385,35 @@
               <i>SIGA A BANZAI NAS REDES SOCIAIS</i>
             </p>
             <div class="social-media__follow__circle">
-              <i class="fab fa-facebook-f"></i>
+              <a href="https://www.facebook.com/BanzaiHonda" target="_blanck">
+                <i class="fab fa-facebook-f"></i>
+              </a>
             </div>
             <span class="social-media__follow__circle">
-              <i class="fab fa-instagram"></i>
+              <a
+                href="https://www.instagram.com/banzaihonda_bh/"
+                target="_blanck"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
             </span>
             <span class="social-media__follow__circle">
               <i class="fab fa-twitter"></i>
             </span>
           </div>
         </div>
-      </div>
+      </section>
     </main>
     <footer class="footer container">
       <div class="footer__div">
-        <img class="footer__div__img" src="images/logo.png" />
+        <img
+          class="footer__div__img"
+          src="images/logo.png"
+          alt="logo honda banzai"
+        />
         <span class="footer__div__span">
           <span>Todos juntos fazem um trânsito melhor</span>
-          <img src="images/logo_ibama.png" />
+          <img src="images/logo_ibama.png" alt="logo ibama" />
         </span>
       </div>
     </footer>

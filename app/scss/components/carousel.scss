@@ -3,8 +3,8 @@
     width: 323px;
     height: 223px;
     margin: 20px auto;
-    background: #ffffff 0% 0% no-repeat padding-box;
-    border: 1px solid #d5d5d5;
+    background: $white 0% 0% no-repeat padding-box;
+    border: 1px solid $white-grey2;
     opacity: 1;
   }
   .carousel-item__text {
@@ -23,8 +23,6 @@
   .carousel-control {
     position: absolute;
     background-color: rgba(255, 255, 255, 0.5);
-    //    background-color: $white-grey2;
-    //    opacity: 0.5;
     border-radius: 50%;
     cursor: pointer;
     width: 39px;
@@ -36,19 +34,59 @@
     img {
       width: 12px;
       height: 20px;
-      color: #ffffff 0% 0% no-repeat padding-box;
+      color: $white 0% 0% no-repeat padding-box;
       opacity: 1;
     }
-    &.right {
-      right: 13.5em;
-      top: 7rem;
+    &.right,
+    &.left {
+      position: absolute;
     }
     &.left {
-      top: 7.3rem;
-      left: 14.5rem;
       img {
         transform: rotate(180deg);
       }
+    }
+  }
+}
+@media (min-width: $screen-xxs-min) {
+  .carousel-control {
+    &.right {
+      right: 1.8em;
+      top: 7rem;
+    }
+    &.left {
+      top: 7rem;
+      left: 2.5rem;
+    }
+  }
+}
+@media (min-width: 400px) and (max-width: 499px) {
+  .carousel-control {
+    &.right {
+      right: 2.8em;
+    }
+    &.left {
+      left: 3.5rem;
+    }
+  }
+}
+@media (min-width: 500px) {
+  .carousel-control {
+    &.right {
+      right: 5.3em;
+    }
+    &.left {
+      left: 6.5rem;
+    }
+  }
+}
+@media (min-width: 540px) {
+  .carousel-control {
+    &.right {
+      right: 6.3em;
+    }
+    &.left {
+      left: 7.5rem;
     }
   }
 }
