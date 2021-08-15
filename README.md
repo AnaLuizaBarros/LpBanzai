@@ -30,7 +30,7 @@ Dentro da pasta do projeto execute pelo cmd o comando para buildar a aplicação
 
 `gulp build`
 
-Por ultimo execute o comando para rodar a aplicação:
+Por último execute o comando para rodar a aplicação:
 
 `gulp watch`
 
