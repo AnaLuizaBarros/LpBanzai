@@ -1,0 +1,15 @@
+@import "../variables.scss";
+.logo-contact {
+  display: flex;
+  justify-content: space-between;
+  .logo-contact__imagem {
+    width: 200px;
+    height: 51px;
+  }
+}
+@media (min-width: $screen-xxs-min) and (max-width: $screen-sm-max) {
+  .logo-contact {
+    display: block;
+    text-align: center;
+  }
+}

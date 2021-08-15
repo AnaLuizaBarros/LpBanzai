@@ -1,0 +1,19 @@
+@import "../variables.scss";
+.new-car {
+  .new-car__coluns {
+    .new-car__coluns__item {
+      top: 2062px;
+      left: 395px;
+      width: 270px;
+      height: 350px;
+      text-align: center;
+      border: 1px solid #d5d5d5;
+      .new-car__coluns__item__text {
+        margin-top: 0.5em;
+        font-size: 0.875rem;
+        width: 235px;
+        line-height: 1.2;
+      }
+    }
+  }
+}

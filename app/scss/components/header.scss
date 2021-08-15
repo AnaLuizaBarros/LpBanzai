@@ -1,0 +1,41 @@
+@import "../variables.scss";
+.header {
+  background-color: #eeeeee;
+  top: 0px;
+  left: 0px;
+  height: 30px;
+  opacity: 1;
+  .header__container {
+    display: flex;
+    justify-content: space-between;
+    .header__container__item {
+      i {
+        color: $white-grey2;
+      }
+    }
+  }
+  .header__container__item__span__text {
+    vertical-align: middle;
+  }
+}
+
+@media (min-width: $screen-xxs-min) and (max-width: $screen-md-max) {
+  .header {
+    height: 40px;
+    .header__container {
+      text-align: center;
+      img {
+        margin-top: 0.5em;
+        width: 24px;
+        height: 16px;
+        top: 13px;
+        left: 288px;
+      }
+      .header__container__item {
+        i {
+          font-size: 2em;
+        }
+      }
+    }
+  }
+}

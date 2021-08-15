@@ -1,0 +1,66 @@
+.hide-on-mobile {
+  //@media (max-width: $screen-md-max) {
+  @media (min-width: $screen-xxs-min) and (max-width: $screen-sm-max) {
+    display: none !important;
+  }
+}
+.hide-on-desktop {
+  @media (min-width: $screen-md-min) {
+    display: none;
+  }
+}
+.title {
+  font-weight: bolder;
+  font-size: 2.125rem;
+  text-align: left;
+}
+.central {
+  .central__span {
+    font-size: 1rem;
+  }
+  .central__numbers {
+    font-size: 1.625rem;
+    font-weight: bolder;
+    color: $red;
+    line-height: 1;
+  }
+}
+
+@media (min-width: $screen-xxs-min) and (max-width: $screen-sm-max) {
+  .title,
+  .example-car__text,
+  .subtitle,
+  .social-media__follow__text {
+    text-align: center;
+  }
+  .make-contact {
+    position: inherit;
+    width: 334px;
+    left: 0;
+    top: 0;
+    margin-left: 0;
+    margin: 15px auto;
+  }
+  .social-media {
+    height: 339px;
+    .social-media__box {
+      display: inline-block;
+    }
+    .social-media__follow {
+      .social-media__follow__text {
+        font-size: 1.125rem;
+      }
+    }
+  }
+  .honda-button {
+    &.secondary {
+      width: 300px;
+    }
+  }
+  .footer {
+    text-align: center;
+    .footer__div {
+      width: 60%;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.carousel {
+  .carousel-item__image {
+    width: 323px;
+    height: 223px;
+    margin: 20px auto;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #d5d5d5;
+    opacity: 1;
+  }
+  .carousel-item__text {
+    text-align: center;
+    .carousel-item__text__title {
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+    .carousel-item__text__paragraph {
+      font-size: 0.875rem;
+      width: 335px;
+      height: 105px;
+      margin: 0 auto;
+    }
+  }
+  .carousel-control {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    //    background-color: $white-grey2;
+    //    opacity: 0.5;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 39px;
+    height: 39px;
+    border: 0;
+    outline: none;
+    z-index: 9999;
+
+    img {
+      width: 12px;
+      height: 20px;
+      color: #ffffff 0% 0% no-repeat padding-box;
+      opacity: 1;
+    }
+    &.right {
+      right: 13.5em;
+      top: 7rem;
+    }
+    &.left {
+      top: 7.3rem;
+      left: 14.5rem;
+      img {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.accordion-carousel {
+  .item {
+    height: 400px;
+  }
+  .accordion-button:not(.collapsed),
+  .accordion-button:focus {
+    color: $white;
+    background-color: $white;
+    box-shadow: none !important;
+  }
+  img {
+    width: 211px !important;
+    height: 179px;
+  }
+  .accordion-item {
+    width: 335px;
+    height: 215px;
+    margin: 0 auto;
+  }
+  .honda-button {
+    width: 335px;
+  }
+}
