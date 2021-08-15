@@ -5,7 +5,7 @@ Teste para a vaga de Front-end na empresa Alpes One, que consiste na criação d
 
 ## Tecnologias principais
 
-<li>HTML, CSS, JavaScript, SASS, GULP, Bootstrap 5</li>
+<li>HTML, CSS, JavaScript, SCSS, GULP, Bootstrap 5</li>
 
 ## Pontos Importantes do projeto
 
