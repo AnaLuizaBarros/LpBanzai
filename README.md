@@ -26,11 +26,13 @@ Em seguida acesse a pasta do projeto e faça a instalação:
 
 `npm install`
 
-Dentro da pasta do projeto execute pelo cmd o comando para buildar a aplicação:
+### Caso queira rodar a aplicação pelo cmd, recomendo estes passos: 
+
+Para buildar:
 
 `gulp build`
 
-Por último execute o comando para rodar a aplicação:
+Para compilar:
 
 `gulp watch`
 
@@ -43,3 +45,5 @@ Para buildar:
 Para compilar:
 
 `npm run-script watch`
+
+Por último acesse http://localhost:3000/ 
